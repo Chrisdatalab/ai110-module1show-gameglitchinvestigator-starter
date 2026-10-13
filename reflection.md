@@ -45,12 +45,15 @@ Yes. Claude helped me create pytest tests for the two bugs. It suggested testing
 ## 4. What did you learn about Streamlit and state?
 
 - How would you explain Streamlit "reruns" and session state to a friend who has never used Streamlit?
-
+Streamlit reruns the Python script when a user interacts with the app, such as clicking a button or submitting a guess. Session state stores important information between reruns, including the secret number, score, and guess history. Without session state, the game would lose its progress after each interaction.
 ---
 
 ## 5. Looking ahead: your developer habits
 
 - What is one habit or strategy from this project that you want to reuse in future labs or projects?
+I want to use pytest more often in my future projects. Automated tests help me check whether my code works correctly and prevent bugs from coming back. I also learned to review Git diffs before accepting AI-generated changes.
   - This could be a testing habit, a prompting strategy, or a way you used Git.
 - What is one thing you would do differently next time you work with AI on a coding task?
+Next time, I would write test cases before fixing bugs. This would help me understand the expected behavior and verify whether the AI's solution actually works.
 - In one or two sentences, describe how this project changed the way you think about AI generated code.
+I learned that AI-generated code can look correct but still contain hidden bugs. AI is a useful coding assistant, but developers must use their own judgment to review and test its solutions.
